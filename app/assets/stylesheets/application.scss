@@ -1,0 +1,33 @@
+
+// FONT CODE IMPORT
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
+
+
+// BOOTSTRAP CODE BEGIN
+
+// BEFORE BOOTSTRAP LAUNCH
+$theme-colors: (
+    "primary": #FF652F,
+);
+$border-radius: 10rem;
+$btn-transition: color .35s ease-in;
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// Always require these line
+// @import "../../../node_modules/bootstrap/scss/functions";
+// @import "../../../node_modules/bootstrap/scss/variables";
+// @import "../../../node_modules/bootstrap/scss/mixins";
+// Require END
+
+// @import "../../../node_modules/bootstrap/scss/modal";
+// @import "../../../node_modules/bootstrap/scss/buttons";
+// BOOTSTRAP CODE END
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
